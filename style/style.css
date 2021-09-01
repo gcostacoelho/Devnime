@@ -56,12 +56,15 @@ body{
     align-items: flex-start;
 }
 
+.container{
+    margin-left: 10px;
+}
+
 .title{
     margin-top: 15%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     transition: 2s ease all;
-    margin-left: 5px;
 }
 
 .description{
@@ -69,7 +72,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
     transition: 2s ease all;
-    margin-left: 5px;
 }
 
 .button{
@@ -82,7 +84,6 @@ body{
     font-size: 12px;
     cursor: pointer;
     transition: 1s ease all;
-    margin-left: 5px;
 }
 
 .button i{
