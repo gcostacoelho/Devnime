@@ -56,3 +56,14 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.description{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
