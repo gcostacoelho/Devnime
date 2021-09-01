@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>Devnime</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="js/script.js"></script>
+    
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 </head>
 <body>
     <header>
@@ -23,21 +27,37 @@
         <div class="main-movie">
             <div class="container">
                 <h3 class="title">SWORD ART ONLINE:ORDINAL SCALE</h3>
-                <p class="description">Kirito descobre uma conspiração dentro de Ordinal Scale, um popular jogo de RA desenvolvido para um novo sistema chamado The Augma.<br>Assista agora!</p>
+                <p class="description">Kirito descobre uma conspiração dentro de Ordinal Scale, um popular jogo de RA desenvolvido para um novo sistema chamado The Augma.<br><b>Assista agora!</b></p>
                 <div class="buttons">
                     <button role="button" class="button">
                         <i class="fas fa-play-circle"></i>
-                        ASSISTIR AGORA
+                        <b>ASSISTIR AGORA</b>
                     </button>
                     <button role="button" class="button">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <b>MAIS INFORMAÇÕES</b>
                     </button>
                 </div>
             </div>
         </div>
     </main>
 
+    <div class="carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="/img/min1.jpg" alt="min1">
+            </div>
+        </div>
+    </div>
+
+    
+    
     <script src="https://kit.fontawesome.com/2d2597a75a.js" crossorigin="anonymous"></script>
+    
+    <!--OWN JS-->
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
+
 </body>
 </html>

@@ -56,8 +56,9 @@ body{
     align-items: flex-start;
 }
 
-.container{
+.main-movie .container{
     margin-left: 10px;
+    width: 90%;
 }
 
 .title{
@@ -72,6 +73,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
     transition: 2s ease all;
+    width: 60%;
 }
 
 .button{
@@ -93,4 +95,11 @@ body{
 .button:hover{
     background-color: #ffffff;
     color: black;
+}
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
+
 }
