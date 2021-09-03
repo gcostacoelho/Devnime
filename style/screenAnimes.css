@@ -72,17 +72,14 @@ body{
 
 .item{
     display: inline-flex;
-    flex-direction: row;
     margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 10px;
     height: 300px;
 }
 
 .item img{
     display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    margin-left:20px;
+    text-align: center;
+    max-width: 100%;
     border-radius: 10px;
 }
