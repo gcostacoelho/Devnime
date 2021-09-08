@@ -1,3 +1,18 @@
+@media screen and (min-width:665px){
+    .cabecalho{
+        background-color: #242424;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .animes{
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:700px){
     .cabecalho{
         background-color: #242424;
@@ -20,7 +35,7 @@
     }
 }
 
-/*MOBILE L*/
+/*MOBILES*/
 @media screen and (max-width: 425px){
     .cabecalho{
         background-color: #242424;
@@ -31,25 +46,14 @@
         justify-content: space-between;
     }
 
+    .animes{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+
     .button{
         margin-top: 5px;
         width: 150px;
-    }
-}
-
-/*MOBILE S*/
-
-@media screen and (max-width: 320px){
-    .cabecalho{
-        background-color: #242424;
-        border: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .buttons{
-        display: none;
     }
 }

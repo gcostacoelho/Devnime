@@ -83,3 +83,8 @@ body{
     max-width: 100%;
     border-radius: 10px;
 }
+
+.item img:hover{
+    border: 3px solid var(--red);
+    border-radius: 10px;
+}
