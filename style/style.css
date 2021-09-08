@@ -127,20 +127,12 @@ body{
     display: block;
 }
 
-.item i{
-    font-size: 35px;
-    color: #e50914;
-    position: absolute;
-    top: 7.5px;
-    margin-left: 20px;
-    cursor: pointer;
+.item img:hover{
+    border: 3px solid var(--red);
+    border-radius: 10px;
 }
 
-.item i:hover{
-    transition: 1s ease all;
-    color: rgb(255, 255, 255);
-} 
 
 .carrosel{
-    margin-top: 5px;
+    margin-top: 15px;
 }

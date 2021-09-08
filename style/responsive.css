@@ -1,14 +1,17 @@
-@media screen and (max-width:665px){
-    .cabecalho{
+@media screen and (min-width:665px){
+    /*.cabecalho{
         background-color: #242424;
         border: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-    }
+    }*/
 
     .animes{
+        text-align:center;
+    }
+    .filmes{
         text-align: center;
     }
 }
@@ -29,7 +32,7 @@
     }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (max-width:1000px){
     .description{
         width: 50%;
     }
@@ -50,6 +53,12 @@
         display: flex;
         flex-direction: column;
         align-items: center ;
+    }
+
+    .filmes{
+        display: flex;
+        flex-direction: column;
+        align-items: center ; 
     }
 
     .button{

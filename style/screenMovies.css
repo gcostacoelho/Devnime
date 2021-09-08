@@ -30,6 +30,20 @@ body{
     color: rgb(255, 255, 255);
 }
 
+
+.section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /*Englobando o cabeçalho*/
 .cabecalho{
     background-color: #242424;
@@ -56,10 +70,21 @@ body{
     color: var(--red);
 }
 
-h1{
-    margin: 10px;
-    color: var(--red);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.item{
+    display: inline-flex;
+    margin-top: 15px;
+    height: 300px;
+}
 
+.item img{
+    display: inline-flex;
+    margin-left:20px;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item img:hover{
+    border: 3px solid var(--red);
+    border-radius: 10px;
 }
