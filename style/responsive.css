@@ -1,4 +1,4 @@
-@media screen and (min-width:665px){
+@media screen and (max-width:665px){
     .cabecalho{
         background-color: #242424;
         border: none;
