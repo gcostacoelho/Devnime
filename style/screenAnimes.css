@@ -70,6 +70,46 @@ body{
     color: var(--red);
 }
 
+#btn-div{
+    background-color: #242424;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-div i{
+    font-size: 15px;
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+
+#btn-div i:hover{
+    color: var(--red);
+}
+
+.account-box{
+    margin-top: 1px;
+    position: absolute;
+    right: 10px;
+    width: 170px;
+    height: 120px;
+    padding: 10px;
+    display: none;
+    background-color: var(--black);
+    border: 1px solid var(--red);
+    border-start-start-radius: 10px;
+}
+
+.account-box ul{
+    margin-top: 50px;
+    text-align: end;
+}
+
+.account-box img{
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+}
+
 .item{
     display: inline-flex;
     margin-top: 15px;
