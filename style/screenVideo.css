@@ -1,0 +1,38 @@
+#video{
+    top: 290px;
+    left: 27%;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10px 15px 10px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;    
+}
+
+#video iframe{
+    border-radius: 5px;
+    width:560px; 
+    height:315px;
+}
+
+#close{
+    top: 5px;
+    right: 8px;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#close:hover{
+    transition: 1s ease all;
+    color: #e50914;
+}

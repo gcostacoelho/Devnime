@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devnime</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/screenVideo.css">
     
     <!--RESPONSIVIDADE-->
     <link rel="stylesheet" href="/style/responsive.css">
@@ -15,95 +16,101 @@
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
 </head>
-<body>
-    <header>
-        <div class="cabecalho">
-            <h2 class="logo">Devnime</h2>
-            <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="/pages/screenAnime.html">Animes</a>
-                <a href="/pages/screenMovies.html">Filmes</a>
-                <button id="btn-div"><i class="fas fa-bars" title="Account"></i></button>
-            </nav>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <h2 class="logo">Devnime</h2>
+                <nav class="menu">
+                    <a href="#">Inicio</a>
+                    <a href="/pages/screenAnime.html">Animes</a>
+                    <a href="/pages/screenMovies.html">Filmes</a>
+                    <button id="btn-div"><i class="fas fa-bars" title="Account"></i></button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="account-box">
+            <img src="/img/icon.jpg">
+            <ul>
+                <p>Minha lista</p>
+                <p>Configurações</p>
+                <p>Sair</p>
+            </ul>
         </div>
-    </header>
 
-    <div class="account-box">
-        <img src="/img/icon.jpg">
-        <ul>
-            <p>Minha lista</p>
-            <p>Configurações</p>
-            <p>Sair</p>
-        </ul>
-    </div>
+        <main>
+            <div class="main-movie">
+                <div class="container">
+                    <h3 class="title">SWORD ART ONLINE:ORDINAL SCALE</h3>
+                    <p class="description">Kirito descobre uma conspiração dentro de Ordinal Scale, um popular jogo de RA desenvolvido para um novo sistema chamado The Augma.<br><b>Assista agora!</b></p>
+                    <div class="buttons">
+                        <button role="button" onclick="movie()" class="button" title="Play">
+                            <i class="fas fa-play-circle"></i>
+                            <b>ASSISTIR AGORA</b>
+                        </button>
+                        <button role="button" onclick="info()" class="button" title="Info">
+                            <i class="fas fa-info-circle" ></i>
+                            <b>MAIS INFORMAÇÕES</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <hr style="	width:auto; border: 1px solid var(--red); ">
+        <p class="destaques"><b>DESTAQUES</b></p>
+        <hr style="	width:auto; border: 1px solid var(--red); ">
 
-    <main>
-        <div class="main-movie">
-            <div class="container">
-                <h3 class="title">SWORD ART ONLINE:ORDINAL SCALE</h3>
-                <p class="description">Kirito descobre uma conspiração dentro de Ordinal Scale, um popular jogo de RA desenvolvido para um novo sistema chamado The Augma.<br><b>Assista agora!</b></p>
-                <div class="buttons">
-                    <button role="button" onclick="movie()" class="button" title="Play">
-                        <i class="fas fa-play-circle"></i>
-                        <b>ASSISTIR AGORA</b>
-                    </button>
-                    <button role="button" onclick="info()" class="button" title="Info">
-                        <i class="fas fa-info-circle" ></i>
-                        <b>MAIS INFORMAÇÕES</b>
-                    </button>
+        <div class="carrosel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a id="min" target="min1">
+                        <img class="box-movie" src="/img/min1.jpg" alt="min1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=wIb3nnOeves">
+                        <img class="box-movie" src="/img/min2.jpg" alt="min2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=LM1VWi1-br8">
+                        <img class="box-movie" src="/img/min3.jpg" alt="min3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=6ohYYtxfDCg">
+                        <img class="box-movie" src="/img/min4.jpg" alt="min4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=qlCFzjRzTN8">
+                        <img class="box-movie" src="/img/min5.jpg" alt="min5">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=NLnYhnoDjVs">
+                        <img class="box-movie" src="/img/min6.jpg" alt="min6">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=2LUfrT5hZM4">
+                        <img class="box-movie" src="/img/min7.jpg" alt="min7">
+                    </a>
                 </div>
             </div>
         </div>
-    </main>
-    <hr style="	width:auto; border: 1px solid var(--red); ">
-    <p class="destaques"><b>DESTAQUES</b></p>
-    <hr style="	width:auto; border: 1px solid var(--red); ">
 
-    <div class="carrosel">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=4ozmknhP7j4">
-                    <img class="box-movie" src="/img/min1.jpg" alt="min1">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=wIb3nnOeves">
-                    <img class="box-movie" src="/img/min2.jpg" alt="min2">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=LM1VWi1-br8">
-                    <img class="box-movie" src="/img/min3.jpg" alt="min3">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=6ohYYtxfDCg">
-                    <img class="box-movie" src="/img/min4.jpg" alt="min4">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=qlCFzjRzTN8">
-                    <img class="box-movie" src="/img/min5.jpg" alt="min5">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=NLnYhnoDjVs">
-                    <img class="box-movie" src="/img/min6.jpg" alt="min6">
-                </a>
-            </div>
-            <div class="item">
-                <a href="https://www.youtube.com/watch?v=2LUfrT5hZM4">
-                    <img class="box-movie" src="/img/min7.jpg" alt="min7">
-                </a>
-            </div>
+        <div id="video">
+            <button id="close">X</button>
+            <iframe name="min1" src="https://www.youtube.com/embed/4ozmknhP7j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </div>
-    <script src="/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/2d2597a75a.js" crossorigin="anonymous"></script>
-    
-    <!--OWN JS-->
-    <script src="/js/owl/jquery.min.js"></script>
-    <script src="/js/owl/owl.carousel.min.js"></script>
-    <script src="/js/owl/setup.js"></script>
-</body>
+        <script src="/js/script.js"></script>
+        <script src="/js/hiddenVideo.js"></script>
+        <script src="https://kit.fontawesome.com/2d2597a75a.js" crossorigin="anonymous"></script>
+        
+        <!--OWN JS-->
+        <script src="/js/owl/jquery.min.js"></script>
+        <script src="/js/owl/owl.carousel.min.js"></script>
+        <script src="/js/owl/setup.js"></script>
+    </body>
 </html>
