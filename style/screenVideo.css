@@ -11,19 +11,11 @@
     background-color: rgb(48, 48, 48);
     border-radius: 10px;    
 }
-
-#video iframe{
-    border-radius: 5px;
-    width:560px; 
-    height:315px;
-}
-
-#close{
+#video #close{
     top: 5px;
     right: 8px;
     position: absolute;
     display: flex;
-    cursor: pointer;
     background: none;
     border: none;
     font-size: 25px;
@@ -32,7 +24,8 @@
     margin-right: 5px;
 }
 
-#close:hover{
+#video #close:hover{
+    cursor: pointer;
     transition: 1s ease all;
     color: #e50914;
 }

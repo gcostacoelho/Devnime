@@ -1,0 +1,22 @@
+{
+    "infos":{
+        "carrosel":[
+            {
+                "id": 1,
+                "name": "The Witcher",
+                "link": "https://www.youtube.com/embed/4ozmknhP7j4"
+            },
+            {
+                "id": 2,
+                "name": "My Hero Academia",
+                "link": "https://www.youtube.com/embed/wIb3nnOeves"
+            }
+        ],
+        "filmes":[
+            {}
+        ],
+        "animes":[
+            {}
+        ]
+    }
+}
